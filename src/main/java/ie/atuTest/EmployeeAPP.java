@@ -8,9 +8,9 @@ public class EmployeeAPP extends Employee{
         try {
             System.out.println("Enter Employee name");
             String name = input.nextLine();
-            Employee EINFO = new Employee();
-            EINFO.setname(name);
-            System.out.println("you entered :" + EINFO.getname());
+            EmployeeAPP EAPP = new EmployeeAPP();
+            EAPP.setname(name);
+            System.out.println("you entered :" + EAPP.getname());
         }
         catch (IllegalArgumentException e) {
             System.out.println("Invalid Name");
@@ -18,9 +18,9 @@ public class EmployeeAPP extends Employee{
         try {
             System.out.println("Enter Employee PPS ID");
             String name = input.nextLine();
-            Employee EINFO = new Employee();
-            EINFO.setPPS_ID(PPS_ID);
-            System.out.println("you entered :" + EINFO.getPPS_ID());
+            EmployeeAPP EAPP = new EmployeeAPP();
+            EAPP.setPPS_ID(PPS_ID);
+            System.out.println("you entered :" + EAPP.getPPS_ID());
         }
         catch (IllegalArgumentException e) {
             System.out.println("Invalid PPS ID");
@@ -28,15 +28,14 @@ public class EmployeeAPP extends Employee{
         try {
             System.out.println("Enter Employee Type");
             String name = input.nextLine();
-            Employee EINFO = new Employee();
-            EINFO.setType(Type);
-            System.out.println("you entered :" + EINFO.getType());
+            EmployeeAPP EAPP = new EmployeeAPP();
+            EAPP.setType(Type);
+            System.out.println("you entered :" + EAPP.getType());
         }
         catch (IllegalArgumentException e) {
             System.out.println("Invalid Employment Type");
-
-
         }
+        EmployeeAPP EAPP = new EmployeeAPP(toString());
     }
 
 }

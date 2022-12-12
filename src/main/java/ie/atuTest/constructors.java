@@ -6,8 +6,6 @@ public class constructors {
     private String Type;
 
 
-
-
     public String getName() {
         return Name;
     }
@@ -31,7 +29,7 @@ public class constructors {
     public void setType(String type) {
         Type = type;
     }
-}
+
 
     @Override
     public String toString() {
@@ -41,6 +39,7 @@ public class constructors {
                 ", Type='" + Type + '\'' +
                 '}';
     }
+}
 
 
 
