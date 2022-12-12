@@ -3,9 +3,6 @@ package ie.atuTest;
 import java.util.Scanner;
 
 public class Employee {
-    Name =
-    PPS_ID =
-    String Type = Full_time, Part_time, Contract;
 
     public static void main(String[] args) {
         try {

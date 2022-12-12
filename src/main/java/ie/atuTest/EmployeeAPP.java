@@ -35,6 +35,7 @@ public class EmployeeAPP extends Employee{
         catch (IllegalArgumentException e) {
             System.out.println("Invalid Employment Type");
         }
+
         EmployeeAPP EAPP = new EmployeeAPP(toString());
     }
 
